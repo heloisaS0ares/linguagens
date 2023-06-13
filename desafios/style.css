@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('./fontes/idroid.otf') format('opentype');
+    src: url('./imagens/favicon.ico') format('opentype');
 }
 
 
@@ -54,27 +54,27 @@ main p{
     font-size: 1em;
     line-height: 2em;
 }
+main img{
+    width: 100%;
+}
 
 div.video{ 
     background-color: #1a5c37;
-    margin-bottom: 30px;
-    margin: 0px -10px;
+    margin: 0px, -20px, 30px, -20px;
     padding: 20px;
-    padding-bottom: 55.5%;
+    padding-bottom: 50%;
     position: relative;
-
-
+    
 }
 div.video > iframe{
-    position:absolute;
+    position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
 
-
-
 }
+
 main strong{
 
     font-weight: bold;
@@ -158,20 +158,22 @@ main{
     background-color: aliceblue;
     min-width: 300px;
     max-width: 1000px;
-    margin: auto;
+    margin:auto;
     margin-bottom: 30px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 
+/*margin auto é para quando ver em telas grandes o conteudo se adaptar bem*/
   
 }
 main img.pequena{
-
     max-width: 350px;
     display: block;
     margin: auto;
+
+    
 }
 
 /*cuidado o 50% é o tamanho da imagem,se eu diminuir a tela ela vai diminuindo até certo ponto*/
@@ -191,6 +193,7 @@ main h2{
 }
 aside{
     background-color: var(--cor1);
+    margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.438);
