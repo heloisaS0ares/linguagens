@@ -102,7 +102,8 @@ header{
     background-image: linear-gradient(to bottom, #2fa866, #063d1e );
     min-height: 150px;
     text-align: center;
-    padding-top: 30px;;
+    padding-top: 30px;
+    padding: 20px;
    
 
 }
