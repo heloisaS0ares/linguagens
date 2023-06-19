@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Sriracha&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+ 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(175, 170, 170);
+    font-family: var(--font1);
+
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--font3);
+    font-size: 2.5vw;
+}
+/* é importante adequar aas fontes a largura */
+
+section.imagem{
+    color: aliceblue;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
+    background-attachment: fixed;
+}
+section.normal{
+    background-color: aliceblue;
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.349);
+    text-shadow: 1px 1px 0px black ;
+}
+section#joaninha{
+    background-image: url("imagens/background001.jpg");
+    background-position: right center;
+     
+}
+section#papel{
+    background-image: url("imagens/background002.jpg");
+    background-position: right center;
+}
